@@ -1,0 +1,58 @@
+body {
+    background-image: url(images/contact-BG.jpg);
+    background-size:cover;
+}
+
+h1 {
+    font-family: "Ravi Prakash", cursive,"Kokoro", cursive;
+    text-align: center;
+    font-size:70px;
+    text-shadow :7px 10px 7px #fff;
+}
+
+.contact-form {
+    font-size :20px;
+    width:170val;
+    height:10val;
+    margin: 2em;
+    border: solid 3px #000000;
+    background-color: rgb(221, 221, 221);
+    border-radius: 30px;
+    box-shadow:20px 20px 20px rgb(0, 0, 0)
+}
+
+form {
+    display :block;
+}
+
+textarea {
+    resize:none;
+    width:95%;
+    height:200px;
+}
+
+li {
+    list-style: none;
+}
+
+.button {
+    display : inline-block;
+    border-radius : 16%;          
+    font-size : 18pt;       
+    text-align : center;   
+    cursor : pointer;     
+    padding : 12px 12px; 
+    background : #000000;     
+    color : #ffffff;     
+    line-height : 1em;         
+    transition : .3s;         
+    box-shadow : 6px 6px 3px #666666;  
+    border : 2px solid #000000;    
+    margin : 0 0 0 auto;
+}
+
+.button:hover {
+    box-shadow : none;   
+    color : #000066;   
+    background :#fff;
+}

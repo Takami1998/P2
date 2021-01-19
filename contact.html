@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>コンタクトフォーム</title>
+    <link rel="stylesheet" href="form.css">
+    <link href="https://fonts.googleapis.com/css?family=Ravi+Prakash" rel="stylesheet">
+<link href="https://fonts.googleapis.com/earlyaccess/kokoro.css" rel="stylesheet">
+</head>
+<body>
+ <header>
+     <h1>Contact 〜Otoiawase〜</h1>
+ </header>
+ 
+ <div class="contact-form">
+     <form>
+         <ul>
+            <li>名前：<input type="text" placeholder="例：聖帝サウザー"></li>
+            <li>
+                性別：<input type="radio" name="gender" value="女"> 女
+                <input type="radio" name="gender" value="男" checked> 男
+                <input type="radio" name="gender" value="その他"> その他
+            </li>
+            <li>年齢：<input type="text" placeholder="例：20代"></li>
+            <li>その他ご意見や気になったことがあリましたらお寄せください</li>
+            <textarea name="essage" placeholder="何か書いてね"></textarea>
+            <input type="submit" value="送信する" class="button">
+    </form>
+</div>
+</body>
+</html>
